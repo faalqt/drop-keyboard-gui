@@ -1,4 +1,4 @@
-# drop-keyboard-gui
+# (mass)drop-keyboard-gui
  A GUI for loading themes onto a Drop Keyboard
 
 **Place the mdloader exe and the applet where python file is saved**
