@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from tkinter import *
 from tkinter.filedialog import askopenfilename #Idk why I need these if I import all above but w/e
 from tkinter import messagebox #Idk why I need these if I import all above but w/e
@@ -8,7 +10,7 @@ theme = ""
 def select_file():
     global theme
     theme = askopenfilename()
-    if(theme.endswith(".bin" or theme.endswith(".hex"))):
+    if(theme.endswith(".bin") or theme.endswith(".hex")):
         select_label.config(text = theme)
         load_theme.config(state=NORMAL)
     else:
